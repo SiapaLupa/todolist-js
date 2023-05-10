@@ -26,3 +26,11 @@ input {
   border-radius: 1vw;
   border: none;
 }
+
+form input {
+  all: unset;
+}
+input[type=checkbox]:checked {
+  
+  text-decoration: line-through;
+}
